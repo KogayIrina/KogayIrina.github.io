@@ -2,30 +2,27 @@
     padding: 0;
     margin: 0;
 }
-/* body {
-    background: white;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    font-family: Montserrat;
-} */
+body {
+    /* width: 100%; */
+}
 #wrapper {
     background: whitesmoke ;
     display: flex;
-    width: 100%;
     margin: 0 auto;
     flex-direction: column;
 }
 #sidebar {
-    width: 33%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
 }
 
 #content {
-    width: 66.5%;
+    padding-right: 2%;
 }
 
 .hidden {
@@ -33,20 +30,14 @@
 }
 
 .my-photo{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    border-radius: 30px;
-}
-
-.contacts-container {
-    margin-top: 60px;
-    margin-left: 40px;
-    margin-right: 40px;
+    border-radius: 60px;
 }
 
 .contacts-title {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 24px;
     color: rgb(58, 56, 56)
@@ -55,8 +46,11 @@
 
 .title {
     color: rgb(141, 119, 119);
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 12px;
 }
+
+
 
 .words-style {
     font-size: 14px;
@@ -85,8 +79,8 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 .types-of-services{
     color: rgb(92, 84, 84);
@@ -101,9 +95,9 @@
 }
 
 .about-me {
-    padding-left: 90px;
+    padding-left: 20px;
     scroll-padding-right: 90px;
-    padding-top: 50px;
+    padding-top: 15px;
 }
 
 #request-button {
@@ -121,7 +115,7 @@
 }
 #button-style {
     padding-top: 15px;
-    padding-left: 10px;
+    margin-right: 60px;
 }
 #request-form {
     height: 0;
@@ -135,32 +129,30 @@
 .tagForTitles {
     color: rgb(141, 119, 119);
     padding-left: 35px;
-    font-size: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #quotes {
     font-style: italic;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 60px;
-    margin-right: 0;
-    margin-left: 50px;
-    font-size: 11px;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 15px;
+    width: 250px;
 }
 
 #myBackground {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    /* max-width: 700px; */
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
 #typeBackround {
     color: rgb(92, 84, 84);
     font-size: 20px;
-    font-weight: 550;
+    font-weight: 450;
     overflow: hidden;
     margin-top: 25px;
 }
@@ -182,23 +174,25 @@
 .typeLS {
     color: rgb(92, 84, 84);
     font-size: 20px;
-    font-weight: 550;
+    font-weight: 450;
     padding-top: 50px;
+    padding-left: 0px;
 }
 
 #legalSection {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    /* max-width: 500px; */
-    margin-top: 50px;
-    margin-left: 50px;
 }
 
+#tagForLegalSection {
+    margin-top: 50px;
+    margin-left: 15px;
+}
 #clarification {
     color: rgb(92, 84, 84);
     font-size: 20px;
-    font-weight: 550;
+    font-weight: 450;
     padding-left: 25px;
 }
 #typeLegalSection {
@@ -218,9 +212,14 @@
         width: 33.5%;
         padding-top: 40px;
         padding-bottom: 40px;
+        margin: unset;
         display: flex;
         flex-direction: column;
-
+    }
+    .contacts-container {
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
     .my-photo {
         width: 60.5%;
@@ -241,23 +240,92 @@
         margin: 0 auto;
         flex-direction: row;
     }
+
     .title {
         color: rgb(141, 119, 119);
         font-size: 48px;
+    }
+    #services {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    #myBackground {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .about-me {
+        padding-left: 90px;
+        scroll-padding-right: 90px;
+        padding-top: 50px;
     }
     #quotes {
         font-style: italic;
         display: flex;
         flex-direction: row-reverse;
-        margin-top: 60px;
-        margin-right: 0;
-        margin-left: 50px;
+        width: 350px;
+        margin-left: 400px;
+        margin-right: 20px;
+        margin-top: 50px;
         font-size: 18px;
     }
     .tagForTitles {
         color: rgb(141, 119, 119);
         padding-left: 35px;
         font-size: 40px;
+        text-decoration: none;
+        cursor: pointer;
     }
+    #legalSection {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .types-of-services{
+        color: rgb(92, 84, 84);
+        font-size: 20px;
+        font-weight: 550;
+    }
+    #clarification {
+        color: rgb(92, 84, 84);
+        font-size: 20px;
+        font-weight: 550;
+        padding-left: 25px;
+    }
+    #typeBackround {
+        color: rgb(92, 84, 84);
+        font-size: 20px;
+        font-weight: 550;
+        overflow: hidden;
+        margin-top: 25px;
+    }
+    .typeLS {
+        color: rgb(92, 84, 84);
+        font-size: 20px;
+        font-weight: 550;
+        padding-top: 50px;
+    }
+    #tagForLegalSection {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .allSections {
+        color: rgb(92, 84, 84);
+        font-size: 20px;
+        font-weight: 550;
+        overflow: hidden;
+        margin-top: 15px;
+    }
+    #button-style {
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    
 
 }
