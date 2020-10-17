@@ -5,7 +5,7 @@
 body {
     /* width: 100%; */
 }
-#wrapper {
+.wrapper {
     background: whitesmoke ;
     display: flex;
     margin: 0 auto;
@@ -50,10 +50,8 @@ body {
     margin-left: 12px;
 }
 
-
-
 .words-style {
-    font-size: 14px;
+    font-size: 13.9px;
     font-weight: 400;
     line-height: 24px;
     color: rgb(58, 56, 56)
@@ -139,7 +137,7 @@ body {
     margin-top: 30px;
     margin-left: 120px;
     font-size: 15px;
-    width: 250px;
+    width: 200px;
 }
 
 #myBackground {
@@ -206,6 +204,38 @@ body {
     padding-top: 5px;
 }
 
+.PPdescription {
+    color: rgb(92, 84, 84);
+    font-size: 20px;
+    font-weight: 450;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+#PrivicyPolicy {
+    padding-top: 30px;
+}
+
+#tagForprivacyPolicy{
+    color: rgb(141, 119, 119);
+    padding-left: 35px;
+    font-size: 16px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+#tagForStartPage {
+    color: rgb(141, 119, 119);
+    padding-left: 35px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @media (min-width: 960px) {
     #sidebar {
         position: fixed;
@@ -220,6 +250,12 @@ body {
         margin-left: 40px;
         margin-right: 40px;
     }
+    .words-style {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(58, 56, 56)
+}
     .my-photo {
         width: 60.5%;
         height: auto;
