@@ -5,7 +5,7 @@
 body {
     /* width: 100%; */
 }
-.wrapper {
+#wrapper {
     background: whitesmoke ;
     display: flex;
     margin: 0 auto;
@@ -211,8 +211,10 @@ body {
     padding-left: 25px;
     padding-top: 25px;
 }
-#PrivicyPolicy {
+.PrivacyPolicy {
     padding-top: 30px;
+    flex-direction: column !important;
+    padding: 20px;
 }
 
 #tagForprivacyPolicy{
