@@ -25,7 +25,7 @@ function hideText (titleLink, containerDiv) {
     });
 }
 
-const title = document.getElementById ('titlePages');
+const title = document.getElementById('titlePages');
 const services = document.getElementById('insideServices');
 
 const titleAboutMe = document.getElementById('titleAboutMe');
@@ -34,9 +34,9 @@ const background = document.getElementById('typeBackround');
 const legalSection = document.getElementById('tagForLegalSection');
 const conteinerLegalSection = document.getElementById('typeLegalSection');
 
-hideText(title,services);
+hideText(title, services);
 
-hideText(titleAboutMe,background);
+hideText(titleAboutMe, background);
 
-hideText(legalSection,conteinerLegalSection);
+hideText(legalSection, conteinerLegalSection);
 
