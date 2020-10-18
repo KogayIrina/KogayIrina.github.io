@@ -13,7 +13,7 @@ requestButton.addEventListener('click', function() {
     }
 });
 
-function hideText (titleLink, containerDiv) {
+function hideText(titleLink, containerDiv) {
     titleLink.addEventListener('click', function(event) {
         event.preventDefault();
 
@@ -25,18 +25,9 @@ function hideText (titleLink, containerDiv) {
     });
 }
 
-const title = document.getElementById('titlePages');
-const services = document.getElementById('insideServices');
-
-const titleAboutMe = document.getElementById('titleAboutMe');
-const background = document.getElementById('typeBackround');
-
-const legalSection = document.getElementById('tagForLegalSection');
-const conteinerLegalSection = document.getElementById('typeLegalSection');
-
-hideText(title, services);
-
-hideText(titleAboutMe, background);
-
-hideText(legalSection, conteinerLegalSection);
-
+const sections = document.getElementsByClassName('section');
+for (const section of sections) {
+    const sectionTitle = section.getElementsByClassName('sectionTitle')[0];
+    const sectionBody = section.getElementsByClassName('sectionBody')[0];
+    hideText(sectionTitle, sectionBody);
+}
