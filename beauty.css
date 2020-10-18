@@ -55,7 +55,7 @@ body {
     font-size: 13.9px;
     font-weight: 400;
     line-height: 24px;
-    color: rgb(58, 56, 56)
+    color: rgb(58, 56, 56);
 }
 .contacts-link-type {
     font-size: 14px;
@@ -214,11 +214,8 @@ body {
         margin-right: 40px;
     }
     .words-style {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 24px;
-    color: rgb(58, 56, 56)
-}
+        font-size: 17px;
+    }
     .my-photo {
         width: 60.5%;
         height: auto;
@@ -229,18 +226,12 @@ body {
     }
     #content {
         padding-left: 33.5%;
-        padding-right: 2%;
     }
     #wrapper {
-        background: whitesmoke ;
-        display: flex;
         max-width: 1200px;
-        margin: 0 auto;
         flex-direction: row;
     }
-
     .title {
-        color: rgb(141, 119, 119);
         font-size: 48px;
     }
     .section {
@@ -252,11 +243,9 @@ body {
     }
     .about-me {
         padding-left: 90px;
-        scroll-padding-right: 90px;
         padding-top: 50px;
     }
     #quotes {
-        font-style: italic;
         display: flex;
         flex-direction: row-reverse;
         width: 350px;
@@ -265,30 +254,13 @@ body {
         margin-top: 50px;
         font-size: 18px;
     }
-    .tagForTitles {
-        color: rgb(141, 119, 119);
-        padding-left: 35px;
-        font-size: 40px;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    .types-of-services{
-        font-weight: 550;
-    }
     #clarification {
         font-weight: 550;
     }
     .typeLS {
         font-weight: 550;
-        padding-top: 50px;
-    }
-    .allSections {
-        font-weight: 550;
-        overflow: hidden;
-        margin-top: 15px;
     }
     #button-style {
-        padding-top: 15px;
         padding-left: 10px;
     }
 }
