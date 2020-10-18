@@ -218,6 +218,7 @@ body {
     }
     .my-photo {
         width: 60.5%;
+        content: url('/img/avatar.jpg');
         height: auto;
         object-fit: unset;
         border-radius: unset;
