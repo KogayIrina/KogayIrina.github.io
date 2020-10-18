@@ -31,6 +31,7 @@ body {
 }
 
 .my-photo{
+    content: url('/img/avatar-mobile.jpg');
     width: 100px;
     height: 100px;
     object-fit: cover;
