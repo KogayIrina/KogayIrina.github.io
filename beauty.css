@@ -97,14 +97,16 @@ li {
 #request-form {
     height: 0;
     opacity: 0;
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+.animate {
     -moz-transition: all 1s; 
     -webkit-transition: all 1s;
     -ms-transition: all 1s;
     -o-transition: all 1s;  
     transition: all 1s;
-    width: 100%;
-    border: 0;
-    margin: 0;
 }
 .section {
     color: rgb(92, 84, 84);

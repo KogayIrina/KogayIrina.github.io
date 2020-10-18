@@ -17,10 +17,10 @@ function hideText(titleLink, containerDiv) {
     titleLink.addEventListener('click', function(event) {
         event.preventDefault();
 
-        if (containerDiv.style.height === 'unset'){
+        if (containerDiv.style.height) {
             containerDiv.style.height = '';
         } else {
-            containerDiv.style.height = 'unset';
+            containerDiv.style.height = `${containerDiv.scrollHeight}px`;
         }
     });
 }
