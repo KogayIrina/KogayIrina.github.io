@@ -148,6 +148,7 @@ li {
 .PPdescription {
     font-size: 20px;
     padding-top: 25px;
+    color: rgb(92, 84, 84);
 }
 .PrivacyPolicy {
     padding-top: 30px;
@@ -155,26 +156,6 @@ li {
     padding: 20px;
 }
 
-#tagForprivacyPolicy{
-    color: rgb(141, 119, 119);
-    padding-left: 35px;
-    font-size: 16px;
-    padding-left: 80px;
-    padding-bottom: 50px;
-    display: block;
-    text-decoration: none;
-    cursor: pointer;
-}
-#tagForStartPage {
-    color: rgb(141, 119, 119);
-    padding-left: 35px;
-    font-size: 16px;
-    padding-left: 20px;
-    padding-top: 50px;
-    margin-bottom: 50px;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 @media (min-width: 960px) {
     #sidebar {
