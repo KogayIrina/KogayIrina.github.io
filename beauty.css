@@ -42,14 +42,15 @@ body {
 .contacts-title {
     font-size: 20px;
     line-height: 24px;
-    color: rgb(58, 56, 56)
-
+    color: rgb(58, 56, 56);
+    font-weight: bold;
 }
 
 .title {
     color: rgb(141, 119, 119);
     font-size: 30px;
-    margin-left: 12px;
+    padding-left: 20px;
+    padding-top: 15px;
 }
 
 .words-style {
@@ -71,11 +72,6 @@ li {
 }
 .consultation {
     line-height: 24px;
-}
-.about-me {
-    padding-left: 20px;
-    scroll-padding-right: 90px;
-    padding-top: 15px;
 }
 #request-button {
     background-color: rgb(141, 119, 119);
@@ -148,6 +144,9 @@ li {
     font-size: 20px;
     padding-top: 5px;
 }
+.subsection {
+    display: block;
+}
 .PPdescription {
     font-size: 20px;
     padding-top: 25px;
@@ -168,6 +167,7 @@ li {
     display: block;
     text-decoration: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 
@@ -206,6 +206,8 @@ li {
     }
     .title {
         font-size: 48px;
+        padding-left: 90px;
+        padding-top: 50px;
     }
     .section {
         font-size: 20px;
@@ -213,10 +215,6 @@ li {
     }
     .sectionTitle {
         font-size: 30px;
-    }
-    .about-me {
-        padding-left: 90px;
-        padding-top: 50px;
     }
     #quote div {
         font-size: 18px;
