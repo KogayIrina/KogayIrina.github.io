@@ -125,13 +125,16 @@ li {
 .sectionBody {
     margin-top: 25px;
 }
-
-#quotes {
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#quote div {
     font-style: italic;
-    margin-top: 30px;
-    margin-left: 120px;
     font-size: 15px;
-    width: 200px;
+    max-width: 350px;
+    margin: 20px 0 0 50px;
 }
 .allSections {
     font-size: 20px;
@@ -215,13 +218,7 @@ li {
         padding-left: 90px;
         padding-top: 50px;
     }
-    #quotes {
-        display: flex;
-        flex-direction: row-reverse;
-        width: 350px;
-        margin-left: 400px;
-        margin-right: 20px;
-        margin-top: 50px;
+    #quote div {
         font-size: 18px;
     }
     #button-style {
